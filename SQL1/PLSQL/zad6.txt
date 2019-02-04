@@ -1,0 +1,9 @@
+DECLARE
+  v_pracownik PRACOWNICY%ROWTYPE;
+BEGIN
+  SELECT * INTO v_pracownik FROM pracownicy
+  WHERE placa_pod = (SELECT MAX(placa_pod) FROM pracownicy);
+  
+  dbms_output.put_line('Najlepiej zarabia pracownik ' || v_pracownik.nazwisko || '.');
+  dbms_output.put_line('Pracuje on jako ' || v_pracownik.etat || '.');
+END;

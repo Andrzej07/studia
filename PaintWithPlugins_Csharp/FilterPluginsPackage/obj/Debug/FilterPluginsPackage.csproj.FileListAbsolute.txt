@@ -1,0 +1,16 @@
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\bin\Debug\FilterPluginsPackage.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\bin\Debug\FilterPluginsPackage.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\bin\Debug\Interfaces.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\bin\Debug\Interfaces.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\obj\Debug\FilterPluginsPackage.csprojResolveAssemblyReference.cache
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\obj\Debug\FilterPluginsPackage.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\obj\Debug\FilterPluginsPackage.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PluginsOutput\FilterPluginsPackage.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PluginsOutput\FilterPluginsPackage.pdb
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\Plugins\FilterPluginsPackage.dll
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\Plugins\FilterPluginsPackage.pdb
+D:\TPAL\PaintWithPlugins\Debug\Plugins\FilterPluginsPackage.dll
+D:\TPAL\PaintWithPlugins\Debug\Plugins\FilterPluginsPackage.pdb
+D:\TPAL\PaintWithPlugins\FilterPluginsPackage\obj\Debug\FilterPluginsPackage.csprojResolveAssemblyReference.cache
+D:\TPAL\PaintWithPlugins\FilterPluginsPackage\obj\Debug\FilterPluginsPackage.dll
+D:\TPAL\PaintWithPlugins\FilterPluginsPackage\obj\Debug\FilterPluginsPackage.pdb

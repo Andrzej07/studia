@@ -1,0 +1,11 @@
+CREATE TABLE przydzialy
+(id_projektu NUMBER(4) NOT NULL,
+nr_pracownika NUMBER(6) NOT NULL,
+od DATE DEFAULT SYSDATE,
+do DATE,
+stawka NUMBER(7,2) CONSTRAINT przydzialy_stawka_chk CHECK(stawka>0),
+rola VARCHAR(20) CONSTRAINT przydzialy_rola_chk CHECK(rola IN('KIERUJ¥CY', 'ANALITYK','PROGRAMISTA')),
+CONSTRAINT przydzialy_fk1 FOREIGN KEY (id_projektu) REFERENCES projekty(id_projektu),
+CONSTRAINT przydzialy_fk2 FOREIGN KEY (nr_pracownika) REFERENCES pracownicy(id_prac),
+CONSTRAINT przydzialy_daty_chk CHECK(do>od),
+CONSTRAINT przydzialy_pk PRIMARY KEY(id_projektu,nr_pracownika))

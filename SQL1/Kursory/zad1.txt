@@ -1,0 +1,13 @@
+DECLARE
+  CURSOR c_prac IS SELECT * FROM pracownicy WHERE etat='ASYSTENT';
+  r_pracownik pracownicy%ROWTYPE;
+BEGIN
+  OPEN c_prac;
+  LOOP
+    FETCH c_prac INTO r_pracownik;
+    EXIT WHEN c_prac%NOTFOUND;
+    DBMS_OUTPUT.PUT_LINE(r_pracownik.nazwisko || ' pracuje od ' || r_pracownik.zatrudniony);
+  END LOOP; 
+  CLOSE c_prac;
+END;
+  

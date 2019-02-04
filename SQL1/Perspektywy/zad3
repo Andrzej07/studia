@@ -1,0 +1,3 @@
+select nazwisko, placa_pod
+from pracownicy join place using(id_zesp)
+where placa_pod < srednia

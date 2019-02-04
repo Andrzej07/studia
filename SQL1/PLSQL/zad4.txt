@@ -1,0 +1,10 @@
+DECLARE
+  v_liczba1 NUMBER(30,10) := &promien;
+  v_liczba2 NUMBER(30,10);
+  v_liczba3 NUMBER(30,10);
+  c_PI CONSTANT NUMBER(3,2) := 3.14;
+BEGIN
+  v_liczba3:= 2 * c_PI * v_liczba1;
+  v_liczba2:= c_PI * v_liczba1 * v_liczba1;
+  DBMS_OUTPUT.PUT_LINE('Pole kola: ' || v_liczba2 || '. Obwod kola: ' || v_liczba3 || '.');
+END;

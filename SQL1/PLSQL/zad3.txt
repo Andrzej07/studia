@@ -1,0 +1,8 @@
+DECLARE
+  v_liczba1 NUMBER(30,10) := &liczba1;
+  v_liczba2 NUMBER(30,10) := &liczba2;
+  v_liczba3 NUMBER(30,10);
+BEGIN
+  v_liczba3:=v_liczba1 + v_liczba2;
+  DBMS_OUTPUT.PUT_LINE('Wynik dodawania: ' || v_liczba1 || ' i ' || v_liczba2 || ' to ' || v_liczba3);
+END;

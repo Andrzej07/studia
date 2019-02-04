@@ -1,0 +1,16 @@
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\bin\Debug\BasePluginPackage.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\bin\Debug\BasePluginPackage.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\bin\Debug\Interfaces.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\bin\Debug\Interfaces.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\obj\Debug\BasePluginPackage.csprojResolveAssemblyReference.cache
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\obj\Debug\BasePluginPackage.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\BasePluginPackage\obj\Debug\BasePluginPackage.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PluginsOutput\BasePluginPackage.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PluginsOutput\BasePluginPackage.pdb
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\Plugins\BasePluginPackage.dll
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\Plugins\BasePluginPackage.pdb
+D:\TPAL\PaintWithPlugins\Debug\Plugins\BasePluginPackage.dll
+D:\TPAL\PaintWithPlugins\Debug\Plugins\BasePluginPackage.pdb
+D:\TPAL\PaintWithPlugins\BasePluginPackage\obj\Debug\BasePluginPackage.csprojResolveAssemblyReference.cache
+D:\TPAL\PaintWithPlugins\BasePluginPackage\obj\Debug\BasePluginPackage.dll
+D:\TPAL\PaintWithPlugins\BasePluginPackage\obj\Debug\BasePluginPackage.pdb

@@ -1,0 +1,4 @@
+INSERT INTO projekty VALUES
+(1,'Indeksy bitmapowe','19990402', '20010831',25000);
+INSERT INTO projekty VALUES
+(2,'Sieci krêgos³upowe','20001112', NULL,19000)

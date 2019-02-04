@@ -1,0 +1,8 @@
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Release\Plugins\FilterPluginsPackage.dll
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Release\Plugins\FilterPluginsPackage.pdb
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\obj\Release\FilterPluginsPackage.dll
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\FilterPluginsPackage\obj\Release\FilterPluginsPackage.pdb
+D:\TPAL\PaintWithPlugins\Release\Plugins\FilterPluginsPackage.dll
+D:\TPAL\PaintWithPlugins\Release\Plugins\FilterPluginsPackage.pdb
+D:\TPAL\PaintWithPlugins\FilterPluginsPackage\obj\Release\FilterPluginsPackage.dll
+D:\TPAL\PaintWithPlugins\FilterPluginsPackage\obj\Release\FilterPluginsPackage.pdb

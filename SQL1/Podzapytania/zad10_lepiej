@@ -1,0 +1,3 @@
+SELECT nazwisko, placa_pod
+FROM pracownicy p
+WHERE (SELECT COUNT(*) FROM pracownicy WHERE placa_pod>p.placa_pod) <3

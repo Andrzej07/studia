@@ -1,0 +1,3 @@
+DELETE FROM (SELECT p.nazwisko as PRACOWNIK, p2.nazwisko as SZEF 
+FROM pracownicy p JOIN pracownicy p2 ON p2.id_prac=p.id_szefa
+WHERE p2.nazwisko='MORZY')

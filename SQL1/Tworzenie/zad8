@@ -1,0 +1,1 @@
+ALTER TABLE projekty ENABLE CONSTRAINT projekty_uk

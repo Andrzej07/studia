@@ -1,0 +1,2 @@
+DELETE FROM pracownicy
+WHERE nazwisko='Tr¹bczyñski'

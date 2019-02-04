@@ -1,0 +1,13 @@
+DECLARE
+  CURSOR c_prac IS SELECT * FROM pracownicy ORDER BY placa_pod DESC;
+  r_pracownik pracownicy%ROWTYPE;
+BEGIN
+  OPEN c_prac;
+  LOOP
+    FETCH c_prac INTO r_pracownik;
+    EXIT WHEN c_prac%NOTFOUND;
+    DBMS_OUTPUT.PUT_LINE(c_prac%ROWCOUNT || ' : ' || r_pracownik.nazwisko);
+    EXIT WHEN c_prac%ROWCOUNT=3;
+  END LOOP; 
+  CLOSE c_prac;
+END;

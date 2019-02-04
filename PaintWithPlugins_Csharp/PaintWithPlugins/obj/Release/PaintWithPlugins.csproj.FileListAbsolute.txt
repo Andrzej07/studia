@@ -1,0 +1,18 @@
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Release\PaintWithPlugins.exe.config
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Release\PaintWithPlugins.exe
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Release\PaintWithPlugins.pdb
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.csprojResolveAssemblyReference.cache
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.Form1.resources
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.Properties.Resources.resources
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.csproj.GenerateResource.Cache
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.exe
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.pdb
+D:\TPAL\PaintWithPlugins\Release\PaintWithPlugins.exe.config
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.exe
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.pdb
+D:\TPAL\PaintWithPlugins\Release\PaintWithPlugins.exe
+D:\TPAL\PaintWithPlugins\Release\PaintWithPlugins.pdb
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.csprojResolveAssemblyReference.cache
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.Form1.resources
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.Properties.Resources.resources
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Release\PaintWithPlugins.csproj.GenerateResource.Cache

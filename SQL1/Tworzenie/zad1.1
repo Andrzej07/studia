@@ -1,0 +1,7 @@
+CREATE TABLE projekty
+(id_projektu NUMBER(4) CONSTRAINT projekty_pk PRIMARY KEY,
+opis_projektu VARCHAR2(20) NOT NULL CONSTRAINT projekty_uk UNIQUE,
+data_rozpoczecia DATE DEFAULT SYSDATE,
+data_zakonczenia DATE,
+fundusz NUMBER(7,2) CONSTRAINT projekty_fundusz_chk CHECK(fundusz>=0),
+CONSTRAINT projekty_daty_chk CHECK(data_zakonczenia>data_rozpoczecia))

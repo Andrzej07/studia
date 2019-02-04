@@ -1,0 +1,18 @@
+DECLARE
+  CURSOR c_prac(in_nazwa VARCHAR2) IS  SELECT * FROM pracownicy JOIN zespoly USING(id_zesp) WHERE nazwa=in_nazwa for update of placa_dod;
+  CURSOR c_zesp IS SELECT nazwa FROM zespoly;
+  v_zesp zespoly.nazwa%TYPE;
+  r_pracownik c_prac%ROWTYPE;
+BEGIN
+  FOR v_zesp IN c_zesp LOOP
+    FOR r_pracownik IN c_prac(v_zesp) LOOP
+      IF v_zesp='ALGORYTMY' THEN
+        UPDATE pracownicy SET placa_dod = placa_dod + 100 WHERE id_prac=r_pracownik.id_prac;
+      ELSIF v_zesp='ADMINISTRACJA' THEN
+        UPDATE pracownicy SET placa_dod = placa_dod + 150 WHERE id_prac=r_pracownik.id_prac;   
+      ELSE
+        DELETE FROM pracownicy WHERE etat='STAZYSTA' AND id_prac=r_pracownik.id_prac;
+      END IF;   
+    END LOOP; 
+  END LOOP;  
+END;

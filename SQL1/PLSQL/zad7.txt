@@ -1,0 +1,8 @@
+DECLARE
+  SUBTYPE PIENIADZE IS NUMBER(20,2);
+  v_hajs PIENIADZE;
+BEGIN
+  SELECT placa_pod*12 INTO v_hajs FROM pracownicy
+  WHERE nazwisko = 'SLOWINSKI'; 
+  dbms_output.put_line('Pracownik SLOWINSKI zarabia rocznie ' || v_hajs || '.');
+END;

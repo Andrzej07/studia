@@ -1,0 +1,3 @@
+UPDATE pracownicy
+SET placa_pod = (SELECT AVG(placa_pod) FROM pracownicy)
+WHERE placa_pod = (SELECT MIN(placa_pod) FROM pracownicy)

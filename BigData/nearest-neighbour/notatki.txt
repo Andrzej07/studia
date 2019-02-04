@@ -1,0 +1,10 @@
+x - songid
+m - liczba piosenek
+
+h(x) = g_ab(x) mod m
+g_ab(x) = ax + b mod p
+p > m
+
+
+http://www.mmds.org/mmds/v2.1/ch03-lsh.pdf
+tabela minhaszy, podzial na pasma, znowu hasz -> kube³ek

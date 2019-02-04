@@ -1,0 +1,4 @@
+CREATE VIEW asystenci AS
+SELECT id_prac, nazwisko, placa_pod,'Lat: ' || (EXTRACT (YEAR FROM (sysdate - zatrudniony ) YEAR TO MONTH)) || ' Miesiecy: ' || EXTRACT (MONTH FROM (sysdate - zatrudniony ) YEAR TO MONTH) as sta¿_pracy
+FROM pracownicy
+WHERE etat='ASYSTENT'

@@ -1,0 +1,15 @@
+(SELECT ROWNUM as ranking, nazwisko,placa_pod, etat 
+FROM(
+SELECT nazwisko,placa_pod,etat
+FROM pracownicy
+ORDER BY placa_pod DESC
+)
+WHERE ROWNUM < 11)
+MINUS
+(SELECT ROWNUM as ranking, nazwisko,placa_pod, etat 
+FROM(
+SELECT nazwisko,placa_pod,etat
+FROM pracownicy
+ORDER BY placa_pod DESC
+)
+WHERE ROWNUM < 5)

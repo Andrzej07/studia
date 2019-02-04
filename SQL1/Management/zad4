@@ -1,0 +1,4 @@
+UPDATE projekty
+SET data_zakonczenia = '20011231',
+    fundusz=19000
+WHERE opis_projektu='Indeksy bitmapowe'

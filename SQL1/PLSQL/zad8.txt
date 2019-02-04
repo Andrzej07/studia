@@ -1,0 +1,11 @@
+DECLARE
+  v_wybor NUMBER(1,0) := &wybor;
+BEGIN
+  IF v_wybor=1 THEN
+    dbms_output.put_line(SYSDATE);
+  ELSIF v_wybor=2 THEN
+    dbms_output.put_line(CURRENT_TIMESTAMP HOUR TO SECOND);
+  ELSE
+    dbms_output.put_line('Niepoprawne wejscie.');
+  END IF;
+END;

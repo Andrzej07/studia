@@ -1,0 +1,4 @@
+INSERT INTO projekty VALUES
+(3, 'Podboj swiata', '20121212', NULL, 10000);
+INSERT INTO projekty VALUES
+(4, 'Soczki dla kazdego', '20150101', '20150102', 5000)

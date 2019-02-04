@@ -1,0 +1,3 @@
+CREATE TABLE pracownicy_zespoly AS
+SELECT nazwisko, etat as posada, 12*placa_pod+NVL(placa_dod,0) as roczna_placa, nazwa as zespol, adres as adres_pracy
+FROM pracownicy JOIN zespoly USING (id_zesp);

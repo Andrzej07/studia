@@ -1,0 +1,2 @@
+ALTER TABLE przydzialy
+ADD godziny NUMBER(4) CONSTRAINT przydzialy_godziny_chk CHECK(godziny>=0)

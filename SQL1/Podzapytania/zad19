@@ -1,0 +1,4 @@
+SELECT nazwisko, id_prac, id_szefa, LEVEL
+FROM pracownicy
+CONNECT BY PRIOR id_prac = id_szefa
+START WITH nazwisko = 'BRZEZINSKI';

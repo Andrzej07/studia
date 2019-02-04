@@ -1,0 +1,3 @@
+UPDATE pracownicy p
+SET p.placa_pod = p.placa_pod + (SELECT 0.1*AVG(placa_pod)
+FROM pracownicy WHERE p.id_zesp=id_zesp)

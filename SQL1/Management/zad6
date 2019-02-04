@@ -1,0 +1,2 @@
+DELETE FROM projekty proj
+WHERE NOT EXISTS (SELECT * FROM przydzialy WHERE id_projektu=proj.id_projektu)

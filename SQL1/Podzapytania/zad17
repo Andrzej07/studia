@@ -1,0 +1,2 @@
+SELECT nazwisko, (SELECT nazwa FROM zespoly WHERE p.id_zesp=id_zesp)
+FROM pracownicy p

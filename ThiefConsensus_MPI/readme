@@ -1,0 +1,2 @@
+kompilacja: mpic++ main.cpp
+uruchomienie: mpirun -np N ./a.out D P   (N - liczba procesow, D - l. domow, P - l. paserow)

@@ -1,0 +1,4 @@
+CREATE VIEW place AS
+(SELECT id_zesp, AVG(placa_pod) as srednia, MIN(placa_pod) as minimum, MAX(placa_pod) as maximum, SUM(placa_pod) as fundusz, COUNT(placa_pod) as l_pensji, COUNT(placa_dod) as l_dodatkow
+FROM pracownicy JOIN zespoly USING(id_zesp)
+GROUP BY id_zesp)

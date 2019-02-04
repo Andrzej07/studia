@@ -1,0 +1,3 @@
+SELECT nazwisko, etat, placa_pod, nazwa
+FROM pracownicy p1 JOIN zespoly USING(id_zesp)
+WHERE placa_pod < (SELECT AVG(placa_pod) FROM pracownicy p2 WHERE p1.etat=p2.etat GROUP BY etat)

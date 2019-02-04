@@ -1,0 +1,10 @@
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\bin\Release\Interfaces.dll
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\bin\Release\Interfaces.pdb
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\obj\Release\Interfaces.dll
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\obj\Release\Interfaces.pdb
+D:\TPAL\PaintWithPlugins\Interfaces\bin\Release\Interfaces.dll
+D:\TPAL\PaintWithPlugins\Interfaces\bin\Release\Interfaces.pdb
+D:\TPAL\PaintWithPlugins\Interfaces\obj\Release\Interfaces.csprojResolveAssemblyReference.cache
+D:\TPAL\PaintWithPlugins\Interfaces\obj\Release\Interfaces.dll
+D:\TPAL\PaintWithPlugins\Interfaces\obj\Release\Interfaces.pdb

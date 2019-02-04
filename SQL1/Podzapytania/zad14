@@ -1,0 +1,3 @@
+SELECT nazwisko, p1.etat, placa_pod, srednia
+FROM pracownicy p1 JOIN zespoly USING(id_zesp) JOIN (SELECT etat, AVG(placa_pod) as srednia FROM pracownicy GROUP BY etat) p3 ON p1.etat=p3.etat
+WHERE placa_pod < (SELECT AVG(placa_pod) FROM pracownicy WHERE p1.etat=etat GROUP BY etat)

@@ -1,0 +1,7 @@
+SELECT nazwisko,placa_pod 
+FROM(
+SELECT nazwisko,placa_pod
+FROM pracownicy
+ORDER BY placa_pod DESC
+)
+WHERE ROWNUM<4

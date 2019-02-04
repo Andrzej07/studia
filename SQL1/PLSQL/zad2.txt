@@ -1,0 +1,9 @@
+DECLARE
+  v_tekst VARCHAR2(50) := 'Witaj, œWiecie!';
+  v_liczba NUMBER(20,3) := 1000.456;
+BEGIN
+  v_tekst := v_tekst || ' Witaj, nowy dniu!';
+  v_liczba := v_liczba + POWER(10,15);
+  DBMS_OUTPUT.PUT_LINE('Zmienna v_tekst: ' || v_tekst);
+  DBMS_OUTPUT.PUT_LINE('Zmienna v_liczba: ' || v_liczba);
+END;

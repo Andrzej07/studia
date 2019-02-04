@@ -1,0 +1,3 @@
+SELECT nazwisko, (SELECT AVG(placa_pod) FROM pracownicy WHERE id_zesp=p.id_zesp) as Srednia,(SELECT MAX(placa_pod) FROM pracownicy) as Maksymalna
+FROM pracownicy p
+WHERE etat='PROFESOR'

@@ -1,0 +1,3 @@
+UPDATE pracownicy
+SET placa_dod = myseq.CURRVAL
+WHERE nazwisko='Tr¹bczyñski'

@@ -1,0 +1,23 @@
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\bin\Debug\PaintWithPlugins.exe.config
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\bin\Debug\PaintWithPlugins.exe
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\bin\Debug\PaintWithPlugins.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\bin\Debug\Interfaces.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\bin\Debug\Interfaces.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.csprojResolveAssemblyReference.cache
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.Form1.resources
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.Properties.Resources.resources
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.csproj.GenerateResource.Cache
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.exe
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.pdb
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\PaintWithPlugins.exe.config
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\PaintWithPlugins.exe
+C:\Users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Debug\PaintWithPlugins.pdb
+D:\TPAL\PaintWithPlugins\Debug\PaintWithPlugins.exe.config
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.exe
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.pdb
+D:\TPAL\PaintWithPlugins\Debug\PaintWithPlugins.exe
+D:\TPAL\PaintWithPlugins\Debug\PaintWithPlugins.pdb
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.csprojResolveAssemblyReference.cache
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.Form1.resources
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.Properties.Resources.resources
+D:\TPAL\PaintWithPlugins\PaintWithPlugins\obj\Debug\PaintWithPlugins.csproj.GenerateResource.Cache

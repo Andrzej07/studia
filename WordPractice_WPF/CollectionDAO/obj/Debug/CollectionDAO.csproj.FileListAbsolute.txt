@@ -1,0 +1,4 @@
+C:\Users\Maciej Olszowy\documents\visual studio 2015\Projects\NaukaSlow\CollectionDAO\bin\Debug\CollectionDAO.dll
+C:\Users\Maciej Olszowy\documents\visual studio 2015\Projects\NaukaSlow\CollectionDAO\bin\Debug\CollectionDAO.pdb
+C:\Users\Maciej Olszowy\documents\visual studio 2015\Projects\NaukaSlow\CollectionDAO\bin\Debug\Interfaces.dll
+C:\Users\Maciej Olszowy\documents\visual studio 2015\Projects\NaukaSlow\CollectionDAO\bin\Debug\Interfaces.pdb

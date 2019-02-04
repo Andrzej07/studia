@@ -1,0 +1,13 @@
+SELECT Rok, Liczba
+FROM(
+SELECT EXTRACT(YEAR FROM zatrudniony) as Rok, COUNT(*) as Liczba
+FROM pracownicy
+GROUP BY EXTRACT(YEAR FROM zatrudniony)
+ORDER BY Liczba DESC
+)
+WHERE Liczba = (SELECT MAX(Liczba)
+FROM(
+SELECT EXTRACT(YEAR FROM zatrudniony) as Rok, COUNT(*) as Liczba
+FROM pracownicy
+GROUP BY EXTRACT(YEAR FROM zatrudniony)
+))

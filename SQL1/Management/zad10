@@ -1,0 +1,4 @@
+UPDATE 
+(SELECT *
+FROM pracownicy JOIN zespoly USING(id_zesp) WHERE nazwa='SYSTEMY ROZPROSZONE')
+SET placa_pod = placa_pod * 1.25

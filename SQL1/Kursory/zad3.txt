@@ -1,0 +1,9 @@
+DECLARE
+  CURSOR c_prac IS SELECT * FROM pracownicy WHERE TO_CHAR(zatrudniony, 'DAY')='PONIEDZIA£EK' ORDER BY placa_pod DESC FOR UPDATE OF placa_pod;
+  r_pracownik pracownicy%ROWTYPE;
+BEGIN
+  FOR r_pracownik IN c_prac LOOP
+    UPDATE pracownicy SET placa_pod = 1.2 * placa_pod WHERE id_prac=r_pracownik.id_prac;
+    DBMS_OUTPUT.PUT_LINE(r_pracownik.nazwisko || ' ' || r_pracownik.placa_pod);
+  END LOOP; 
+END;

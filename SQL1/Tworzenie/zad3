@@ -1,0 +1,2 @@
+COMMENT ON TABLE przydzialy IS 'Informacje o przydziale poszczególnych pracowników do projektów';
+COMMENT ON TABLE projekty IS 'Lista projektów prowadzonych przez pracowników'

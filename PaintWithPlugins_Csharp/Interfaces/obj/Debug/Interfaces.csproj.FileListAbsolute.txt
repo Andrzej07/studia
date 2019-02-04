@@ -1,0 +1,8 @@
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\bin\Debug\Interfaces.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\bin\Debug\Interfaces.pdb
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\obj\Debug\Interfaces.dll
+c:\users\macie\documents\visual studio 2017\Projects\PaintWithPlugins\Interfaces\obj\Debug\Interfaces.pdb
+D:\TPAL\PaintWithPlugins\Interfaces\bin\Debug\Interfaces.dll
+D:\TPAL\PaintWithPlugins\Interfaces\bin\Debug\Interfaces.pdb
+D:\TPAL\PaintWithPlugins\Interfaces\obj\Debug\Interfaces.dll
+D:\TPAL\PaintWithPlugins\Interfaces\obj\Debug\Interfaces.pdb

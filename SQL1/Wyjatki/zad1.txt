@@ -1,0 +1,16 @@
+DECLARE 
+CURSOR c_kursor(p_etat VARCHAR2) IS SELECT nazwisko FROM pracownicy WHERE etat=p_etat;
+in_etat VARCHAR2(20) := '&wybor';
+czy_blad BOOLEAN := TRUE;
+BEGIN 
+  FOR c_rec IN (SELECT nazwa FROM etaty) LOOP
+    IF (in_etat IN(c_rec.nazwa)) THEN czy_blad:=FALSE; END IF;
+  END LOOP;
+  IF (czy_blad) THEN RAISE no_data_found; END IF;
+  FOR v_nazw IN c_kursor(in_etat)LOOP
+    DBMS_OUTPUT.PUT_LINE(v_nazw.nazwisko);
+  END LOOP;
+  EXCEPTION
+  WHEN no_data_found THEN
+    DBMS_OUTPUT.PUT_LINE('Nie ma etatu ' || in_etat || '!!!!');
+END;

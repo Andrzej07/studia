@@ -1,0 +1,5 @@
+CREATE OR REPLACE VIEW zarobki AS (
+SELECT p1.id_prac, p1.nazwisko, p1.etat, p1.placa_pod
+FROM pracownicy p1
+WHERE p1.placa_pod < (SELECT placa_pod FROM pracownicy WHERE p1.id_szefa=id_prac)
+)WITH CHECK OPTION

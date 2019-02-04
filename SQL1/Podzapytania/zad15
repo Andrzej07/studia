@@ -1,0 +1,4 @@
+SELECT p1.nazwisko, COUNT(*)
+FROM pracownicy p1 join zespoly USING(id_zesp) join pracownicy p2 ON p1.id_prac = p2.id_szefa
+WHERE adres = 'PIOTROWO 3A' AND p1.etat='PROFESOR'
+GROUP BY p1.nazwisko

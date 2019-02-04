@@ -1,0 +1,1 @@
+SELECT column_name, updatable, insertable, deletable FROM USER_UPDATABLE_COLUMNS WHERE TABLE_NAME='PRAC_SZEF'

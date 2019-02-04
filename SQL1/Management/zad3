@@ -1,0 +1,3 @@
+UPDATE przydzialy
+SET stawka = 1200
+WHERE nr_pracownika=170

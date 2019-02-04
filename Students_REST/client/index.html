@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TPSIStudenci</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./js/lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="./js/lib/knockout.js"></script>
+    <script type="text/javascript" src="./js/lib/mapping.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="Logo">
+    <h1>Students</h1>
+</header>
+<div class="main-container">
+    <nav>
+        <a href="#students">Manage students</a>
+        <a href="#courses">Manage courses</a>
+    </nav>
+    <div class="content">
+        <section id="students" class="section">
+            <h2>List of students</h2>
+            <form>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Birthdate</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr class="search">
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody data-bind="foreach: students">
+                    <tr>
+                        <td>
+                            <input type="number" readonly data-bind="value: index">
+                        </td>
+                        <td>
+                            <input type="text" required placeholder="First name" data-bind="value: firstName">
+                        </td>
+                        <td>
+                            <input type="text" required placeholder="Last name" data-bind="value: lastName">
+                        </td>
+                        <td>
+                            <input type="date" required data-bind="value: birthDate">
+                        </td>
+                        <td class="actions">
+                            <button data-bind="click: $parent.seeStudentGrades"><a href="#grades">Details</a></button>
+                            <button>Edit</button>
+                            <button data-bind="click: $parent.removeStudent">Delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+            <button data-bind="click: addStudent">Add student</button>
+        </section>
+
+        <section id="grades" class="section">
+            <div data-bind="visible: gradesVisible()">
+            <h2><span data-bind="text: studentsName"></span> grades</h2>
+            <form>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Grade</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr class="search">
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody data-bind="foreach: grades">
+                    <tr>
+                        <td>
+                            <select data-bind="options: $parent.courses, optionsText: 'name', optionsCaption: 'Select course', optionsAfterRender: $parent.courseAfterRender, value: selectedCourse" required>
+                            </select>
+                            <!--<select data-bind="foreach: $parent.courses, value: selectedCourse" required> &lt;!&ndash; value: course &ndash;&gt;
+                                <option value="" disabled selected>Select course</option>
+                                <option data-bind="if: id, attr: {value: this, text: name}"></option>
+                            </select>-->
+                        </td>
+                        <td>
+                            <input type="number" min="2" max="5" step="0.5" required placeholder="Grade" data-bind="value: grade">
+                        </td>
+                        <td>
+                            <input type="date" required data-bind="value: date">
+                        </td>
+                        <td class="actions">
+                            <button>Details</button>
+                            <button>Edit</button>
+                            <button data-bind="click: $parent.removeGrade">Delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+            <button data-bind="click: addGrade">Add grade</button>
+            </div>
+            <div data-bind="visible: !gradesVisible()">
+                <h2>Please select a student</h2>
+            </div>
+        </section>
+
+        <section id="courses" class="section">
+            <h2>List of courses</h2>
+            <form>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Lecturer</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr class="search">
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th>
+                            <input type="search" placeholder="Search...">
+                        </th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody data-bind="foreach: courses">
+                    <tr>
+                        <td>
+                            <input type="text" required placeholder="Course" data-bind="value: name">
+                        </td>
+                        <td>
+                            <input type="text" required placeholder="Lecturer" data-bind="value: lecturer">
+                        </td>
+                        <td>
+                            <button>Details</button>
+                            <button>Edit</button>
+                            <button data-bind="click: $parent.removeCourse">Delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+            <button data-bind="click: addCourse">Add course</button>
+        </section>
+    </div>
+</div>
+<footer>
+    <span>Maciej Olszowy</span>
+    <a href="http://fc.put.poznan.pl/index.php">Politechnika Poznańska</a>
+</footer>
+
+</body>
+</html>

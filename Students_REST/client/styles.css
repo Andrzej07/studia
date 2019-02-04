@@ -1,0 +1,145 @@
+.section {
+    display: none;
+}
+
+.section:target {
+    display: block;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    flex: 1 0 120px;
+    text-align: center;
+    background-color: #CAB4DC;
+}
+
+nav a {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+}
+
+.content {
+    flex: 2 1 80%
+}
+
+#students {
+    min-width: 900px;
+}
+
+body header {
+    background-color: #BA6B8D;
+}
+
+footer {
+    background: linear-gradient(#ED91D9, #F5B8BA);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-family: fantasy;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #CAB4DC;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F5B8BA;
+}
+
+tr:hover td{
+    border-color: #ED91D9;
+}
+td {
+    border-width: 2px;
+    border-color: inherit;
+    border-style: solid;
+}
+
+tbody input {
+    background-color: inherit;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: blue;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+tbody input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  #825F82;
+}
+
+button a {
+    color: black;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:  gray;
+    }
+    input {
+        border: none
+    }
+    input:invalid {
+        border: none;
+        color: black;
+        background-color: inherit;
+    }
+    tr td {
+        border: none;
+    }
+
+    tbody tr:nth-child(even) {
+        background: none;
+    }
+
+    tbody tr:nth-child(odd) {
+        background: none;
+    }
+
+    .actions {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    .search {
+        display: none
+    }
+}

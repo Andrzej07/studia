@@ -1,0 +1,2 @@
+SELECT constraint_name, constraint_type, search_condition FROM USER_CONSTRAINTS
+WHERE TABLE_NAME = 'PRZYDZIALY'

@@ -1,0 +1,1 @@
+UPDATE place_minimalne SET placa_pod=800 WHERE nazwisko='HAPKE'

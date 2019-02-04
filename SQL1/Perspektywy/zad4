@@ -1,0 +1,5 @@
+CREATE OR REPLACE VIEW place_minimalne AS
+(select id_prac, nazwisko,etat, placa_pod
+from pracownicy
+where placa_pod < 700)
+WITH CHECK OPTION CONSTRAINT za_wysoka_placa

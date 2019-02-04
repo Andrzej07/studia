@@ -1,0 +1,6 @@
+SELECT nazw, p3.placa_pod
+FROM (SELECT p1.nazwisko as nazw, count(*) as liczba
+    FROM pracownicy p1 cross join pracownicy p2
+    WHERE p1.placa_pod<=p2.placa_pod
+    GROUP BY p1.nazwisko) JOIN pracownicy p3 ON nazw=p3.nazwisko
+WHERE liczba<=3

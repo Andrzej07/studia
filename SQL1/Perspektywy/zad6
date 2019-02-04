@@ -1,0 +1,4 @@
+CREATE OR REPLACE VIEW prac_szef AS(
+SELECT p1.id_prac as id_prac, p1.id_szefa as id_szefa, p1.nazwisko as pracownik, p1.etat, p2.nazwisko as szef
+FROM pracownicy p1 JOIN pracownicy p2 ON(p1.id_szefa=p2.id_prac)
+)

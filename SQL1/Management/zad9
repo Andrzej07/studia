@@ -1,0 +1,5 @@
+UPDATE pracownicy
+SET placa_dod = (SELECT AVG(p.placa_pod)
+FROM pracownicy p join pracownicy p2 ON p.id_szefa=p2.id_prac
+WHERE p2.nazwisko = 'MORZY')
+WHERE id_zesp=20
