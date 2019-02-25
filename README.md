@@ -1,23 +1,17 @@
 Other contributions:
 
-Data visualisation with node.js/AngularJS:
-starspire/UnemploymentVisualisation
+[Data visualisation with node.js/AngularJS](https://github.com/starspire/UnemploymentVisualisation)
 
-Optimization algs for TSP:
-starspire/to_tsp
+[Optimization algs for TSP](https://github.com/starspire/to_tsp)
 
 Aplikacja gromadząca przepisy kulinarne:
-starspire/egot-backend
-starspire/egot-frontend
+1. [backend](https://github.com/starspire/egot-backend)
+2. [frontend](https://github.com/starspire/egot-frontend)
 
-OO programming patterns:
-starspire/miasi_bank
+[Example bank app with OO programming patterns](https://github.com/starspire/miasi_bank)
 
-OpenGL 3d mini-game:
-starspire/worms
+[OpenGL 3d mini-game](https://github.com/starspire/worms)
 
-Engineering thesis algorithms (solutions for cpu and CUDA):
-starspire/lumberjack
+[Engineering thesis algorithms (solutions for cpu and CUDA)](https://github.com/starspire/lumberjack)
 
-Simple app with Spring:
-starspire/NerdLounge
+[Simple app with Spring](https://github.com/starspire/NerdLounge)
